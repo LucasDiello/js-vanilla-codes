@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+#checkboxes {
+    margin-bottom: 20px;
+}
+
+#checkboxes label {
+    margin-right: 20px;
+}
+
+#produtos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.produto {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: calc(25% - 20px);
+    text-align: center;
+}
+
+.produto img {
+    max-width: 100%;
+}
